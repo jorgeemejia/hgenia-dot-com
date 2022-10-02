@@ -1,0 +1,22 @@
+.donation_section {
+    width: 100%;
+    background-color: #CED3DC;
+    height: 10rem;
+    position: relative;
+    top: -1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adopt_btn {
+    color: #FAFAFA;
+    background-color: #CC3344;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+.adopt_txt {
+    margin: 0;
+    text-align: center;
+}
