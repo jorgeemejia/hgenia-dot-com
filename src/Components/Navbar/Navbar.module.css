@@ -1,0 +1,36 @@
+.nav_section {
+    width: 100%;
+    top: 0;
+    background-color: #FAE9CF;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tabs_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    /* background-color: green; */
+    width: 40rem;
+    align-items: center;
+}
+
+.tab {
+    color: #7C8DB0;
+    font-size: 2rem;
+}
+
+.RefTab {
+    color: #FAFAFA;
+    font-size: 2rem;
+    background-color: #CC3344;
+    padding: 12px 20px;
+    border-radius: 4px;
+    /* background-color: #CC3344;
+    border-radius:8%; */
+}

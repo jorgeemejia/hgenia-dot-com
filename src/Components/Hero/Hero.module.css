@@ -1,0 +1,9 @@
+.hero_section {
+    position: relative;
+    z-index: -1;
+}
+
+.pic {
+    width: 1440px;
+    height: 640px;
+}

@@ -1,17 +1,21 @@
 .App {
-  text-align: center;
+  /* make app cover whole screen */
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* .App-logo {
+  /* height: 100vh; */
+  /* margin-top: 10rem;
+  height: 70vh;
+  pointer-events: none; */
 
-@media (prefers-reduced-motion: no-preference) {
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
