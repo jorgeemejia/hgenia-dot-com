@@ -15,9 +15,11 @@
     background-color: #CC3344;
     padding: 12px 20px;
     border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 .adopt_txt {
     margin: 0;
     text-align: center;
+    font-weight: bold;
 }

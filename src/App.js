@@ -1,8 +1,8 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
-import Hero from './Components/Hero/Hero';
-import Donation from './Components/Donation/Donation';
-import background from './Images/hgeniaBG.png';
+import Home from './Pages/Home';
+import History from './Pages/History';
+import { Route, Routes } from "react-router-dom";
 
 
 
@@ -10,8 +10,11 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Hero/>
-      <Donation/>
+      {/* Routes: Here's a list of routes, choose the best fit one */}
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/history" element={<History/>} />
+      </Routes>
     </div>
   );
 }

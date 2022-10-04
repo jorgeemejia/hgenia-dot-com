@@ -9,7 +9,7 @@ export default function Donation () {
             </p>
             <p className={classes.adopt_txt}>
                 Give a gift that will help protect the future of nature. Make a symbolic <br/>
-                adoption in support of WWF's global efforts.
+                adoption in support of WHF's global efforts.
             </p>
         </div>
     );

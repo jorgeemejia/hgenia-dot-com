@@ -10,6 +10,11 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.logo:hover {
+    transform: scale(1.1);
+}
+
+
 .tabs_list {
     display: flex;
     flex-direction: row;
@@ -23,6 +28,15 @@
 .tab {
     color: #7C8DB0;
     font-size: 2rem;
+    text-decoration: none;
+}
+
+.tab:hover {
+    transform: scale(1.1);
+}
+
+.ptag:hover {
+    transform: scale(1.1);
 }
 
 .RefTab {
@@ -33,4 +47,8 @@
     border-radius: 4px;
     /* background-color: #CC3344;
     border-radius:8%; */
+}
+
+.RefTab:hover {
+    transform: scale(1.1);
 }
