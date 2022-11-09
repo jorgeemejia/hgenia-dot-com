@@ -1,5 +1,5 @@
 import classes from "./Navbar.module.css";
-import fossil from '../../Images/fossil.png';
+import fossil from '../../Images/greenfossil.png';
 import { Link } from "react-router-dom";
 
 
@@ -14,11 +14,24 @@ function Navbar(){
         <ul className={classes.tabs_list}>
             <li>
                 <Link className={classes.tab} to="/history">
-                    <p className={classes.ptag}>History</p>
+                    <p className={classes.ptag}>Origins</p>
                 </Link>
             </li>
-            <li className={classes.tab}>Biology</li>
-            <li className={classes.tab}>Anatomy</li>
+            <li>
+            <Link className={classes.tab} to="/anatomy">
+                    <p className={classes.ptag}>Anatomy</p>
+            </Link>
+            </li>
+            <li>
+            <Link className={classes.tab} to="/whereabouts">
+                    <p className={classes.ptag}>Whereabouts</p>
+            </Link>
+            </li>
+            <li>
+            <Link className={classes.tab} to="/affinity">
+                    <p className={classes.ptag}>Affinity</p>
+            </Link>
+            </li>
             <li className={classes.RefTab}>Resources</li>
         </ul>
     </nav>

@@ -1,35 +1,23 @@
-.history_page {
+.anatomy_page {
+
     margin-top: 6rem;
     display: flex;
     flex-direction: column;
-    gap: 10rem;
-}
-
-.header {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 4rem;
-}
-
-.hero_section {
-    margin-top: -6rem;
-    box-shadow: 0 4px 2px -2px gray;
+    gap: 8rem;
 
 }
 
 .info_section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .text_box {
-    width: 30rem;
-    height: 20rem;
+    width: 80rem;
+    height: 10rem;
     /* background-color: #7C8DB0; */
     display: flex;
     justify-content: center;
@@ -39,14 +27,13 @@
 
 .text {
     /* background-color: red; */
-    color: black;
+    color: white;
     font-size: 1.5em;
     /* text-indent: 1.5em; */
     padding: 1em;
 }
 
 .image {
-    /* border: 1rem solid #CC3344; */
-    border: 1rem solid #9FC490;
+    border: 1rem solid #CC3344;
     border-radius: 10%;
 }

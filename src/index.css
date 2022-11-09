@@ -1,7 +1,17 @@
 html {
-background-color: white;
+background-image: url(../src/Images/hgeniaBG2.png);
+animation: animatedBackground 500s linear infinite;
 }
 
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+/*use negative width if you want it to flow right to left else and positive for left to right*/
+  to {
+    background-position: -10000px 0;
+  }
+}
 
 body {
   margin: 0;

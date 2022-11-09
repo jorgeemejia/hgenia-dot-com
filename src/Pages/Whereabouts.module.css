@@ -1,23 +1,8 @@
-.history_page {
+.whereabouts_page {
     margin-top: 6rem;
     display: flex;
     flex-direction: column;
     gap: 10rem;
-}
-
-.header {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 4rem;
-}
-
-.hero_section {
-    margin-top: -6rem;
-    box-shadow: 0 4px 2px -2px gray;
-
 }
 
 .info_section {
@@ -39,14 +24,13 @@
 
 .text {
     /* background-color: red; */
-    color: black;
+    color: white;
     font-size: 1.5em;
     /* text-indent: 1.5em; */
     padding: 1em;
 }
 
 .image {
-    /* border: 1rem solid #CC3344; */
-    border: 1rem solid #9FC490;
+    border: 1rem solid #CC3344;
     border-radius: 10%;
 }
