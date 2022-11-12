@@ -5,7 +5,7 @@ export default function References() {
     return (
         <div className={classes.references_page}>
             <div className={classes.hero_section}>
-                <img className={classes.hero_image} src={waterBG} width="100%" height="556"/>
+                <img className={classes.hero_image} src={waterBG} alt= "" width="100%" height="556"/>
                 <h1 className={classes.header}>References</h1>
             </div>
             <p className={classes.text}>https://collections.nmnh.si.edu/search/paleo/?ark=ark:/65665/3ab2556de8262492795eb95b338fa9e0b</p>

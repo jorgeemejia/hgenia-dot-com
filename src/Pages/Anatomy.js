@@ -7,11 +7,11 @@ export default function Anatomy (){
     return(
         <div className={classes.anatomy_page}>
             <div className={classes.hero_section}>
-                <img className={classes.hero_image} src={waterBG} width="100%" height="556"/>
+                <img className={classes.hero_image} src={waterBG} alt="" width="100%" height="556"/>
                 <h1 className={classes.header}>Anatomy</h1>
             </div>
             <div className={classes.info_section}>
-                <img className={classes.image} src={hgenia_diagram} width="800" height="556"/>
+                <img className={classes.image} src={hgenia_diagram} alt="" width="800" height="556"/>
                 <div className={classes.text_box}>
                     <p className={classes.text}>
                     Hallucigenia is a 0.5–5.5 cm (3⁄16–2+3⁄16 in) long tubular animal with up to ten 
@@ -26,7 +26,7 @@ export default function Anatomy (){
                 </div>
             </div>
             <div className={classes.info_section}>
-                <img className={classes.image} src={hgenia} width="800" height="556"/>
+                <img className={classes.image} src={hgenia} alt="" width="800" height="556"/>
                 <div className={classes.text_box}>
                     <p className={classes.text}>
                     Research in the mid-2010s clarified that the longer end is a head with anteroventral

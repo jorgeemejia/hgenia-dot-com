@@ -7,11 +7,11 @@ export default function Affinity (){
     return(
         <div className={classes.anatomy_page}>
             <div className={classes.hero_section}>
-                <img className={classes.hero_image} src={waterBG} width="100%" height="556"/>
+                <img className={classes.hero_image} src={waterBG} alt="" width="100%" height="556"/>
                 <h1 className={classes.header}>Affinity</h1>
             </div>
             <div className={classes.info_section}>
-                <img className={classes.image} src={hgfossil} width="800" height="556"/>
+                <img className={classes.image} src={hgfossil} alt="" width="800" height="556"/>
                 <div className={classes.text_box}>
                     <p className={classes.text}>
                     Since the revisions around 1990s,Hallucigenia is 
@@ -26,7 +26,7 @@ export default function Affinity (){
                 </div>
             </div>
             <div className={classes.info_section}>
-                <img className={classes.image} src={lineage} width="800" height="556"/>
+                <img className={classes.image} src={lineage} alt="" width="800" height="556"/>
                 <div className={classes.text_box}>
                     <p className={classes.text}>
                     On the other hand, some analysis rather support the position of Hallucigenia as a 

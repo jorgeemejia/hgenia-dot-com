@@ -8,9 +8,9 @@ function Navbar(){
     return (
     <nav className={classes.nav_section}>
         <Link to="/">
-            <img  className={classes.logo} src={fossil}></img>
+            <img  className={classes.logo} src={fossil} alt=""></img>
         </Link>
-        <h1></h1>
+        <h1>.</h1>
         <ul className={classes.tabs_list}>
             <li>
                 <Link className={classes.tab} to="/history">
