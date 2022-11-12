@@ -1,10 +1,15 @@
 import classes from './Whereabouts.module.css';
 import burgess_shale from '../Images/Whereabouts/burgess_shale.png';
 import china from '../Images/Whereabouts/china.jpg';
+import waterBG from '../Images/Origins/waterBG.jpg';
 
 export default function Whereabouts (){
     return(
         <div className={classes.whereabouts_page}>
+            <div className={classes.hero_section}>
+                <img className={classes.hero_image} src={waterBG} width="100%" height="556"/>
+                <h1 className={classes.header}>Whereabouts</h1>
+            </div>
         <div className={classes.info_section}>
             <div className={classes.text_box}>
                 <p className={classes.text}>

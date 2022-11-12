@@ -1,0 +1,25 @@
+.references_page {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+}
+
+.hero_section {
+    margin-top: -6rem;
+    box-shadow: 0 4px 2px -2px gray;
+
+}
+
+.text {
+    font-size: 2rem;
+    color: black;
+}

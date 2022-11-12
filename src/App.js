@@ -6,8 +6,9 @@ import History from './Pages/History';
 import Anatomy from './Pages/Anatomy';
 import Whereabouts from './Pages/Whereabouts'
 import Affinity from './Pages/Affinity';
+import References from "./Pages/References";
+import Footer from "./Components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
-import bg from "../src/Images/hgeniaBG2.png";
 
 
 
@@ -23,7 +24,9 @@ function App() {
         <Route path="/anatomy" element={<Anatomy/>} />
         <Route path="/whereabouts" element={<Whereabouts/>}/>
         <Route path="/affinity" element={<Affinity/>}/>
+        <Route path="/references" element={<References/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

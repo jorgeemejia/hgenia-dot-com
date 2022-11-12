@@ -1,0 +1,33 @@
+.home_page {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.header {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+}
+
+.hero_section {
+    margin-top: -6rem;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+/* put three pictures for the content of the home page */
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image {
+    border: 1rem solid #9FC490;
+    border-radius: 10%;
+    
+}
