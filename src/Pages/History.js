@@ -8,7 +8,7 @@ export default function History (){
     return(
         <div className={classes.history_page}>
             <div className={classes.hero_section}>
-                <img className={classes.hero_image} src={waterBG}  alt="" width="100%" height="556"/>
+                <img className={classes.hero_image} src={waterBG}  alt="" />
                 <h1 className={classes.header}>Origins</h1>
             </div>
             <div className={classes.info_section}>
@@ -19,10 +19,10 @@ export default function History (){
                     species as belonging to the polychaete worm Canadia.
                     </p>
                 </div>
-                <img className={classes.image} src={canadia} alt="" width="800" height="556"/>
+                <img className={classes.image} src={canadia} alt="" />
             </div>
             <div className={classes.info_section}>
-                <img className={classes.image} src={brwn_fossil} alt="" width="800" height="544"/>
+                <img className={classes.image} src={brwn_fossil} alt="" />
                 <div className={classes.text_box}>
                     <p className={classes.text}>
                         In 1977 English paleontologist Simon Conway Morris gave his redescription of the 
@@ -58,7 +58,7 @@ export default function History (){
                     of the anatomy.
                     </p>
                 </div>
-                <img className={classes.image} src={interpretations} alt="" width="800" height="556"/>
+                <img className={classes.image} src={interpretations} alt="" />
             </div>
         </div>
     );

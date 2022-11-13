@@ -10,7 +10,7 @@ function Navbar(){
         <Link to="/">
             <img  className={classes.logo} src={fossil} alt=""></img>
         </Link>
-        <h1>.</h1>
+        <h1 className={classes.seperator}>.</h1>
         <ul className={classes.tabs_list}>
             <li>
                 <Link className={classes.tab} to="/history">

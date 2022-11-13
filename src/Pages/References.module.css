@@ -23,3 +23,25 @@
     font-size: 2rem;
     color: black;
 }
+
+
+@media (max-width: 2560px) {
+    .header {
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        font-size: 4rem;
+    }
+
+    .hero_image {
+        height: 400px;
+    }
+
+    .image {
+        width: 400px;
+        height: 278px;
+    }
+
+
+}

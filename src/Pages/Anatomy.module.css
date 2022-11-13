@@ -22,6 +22,11 @@
 
 }
 
+.hero_image {
+    width:100%;
+    height: 556px;
+}
+
 .info_section {
     display: flex;
     flex-direction: column;
@@ -51,4 +56,27 @@
 .image {
     border: 1rem solid #9FC490;
     border-radius: 10%;
+    width: 600px;
+    height: 417px;
+}
+
+@media (max-width: 2560px) {
+    .header {
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        font-size: 4rem;
+    }
+
+    .hero_image {
+        height: 400px;
+    }
+
+    .image {
+        width: 500px;
+        height: 347px;
+    }
+
+
 }

@@ -7,7 +7,7 @@ export default function Whereabouts (){
     return(
         <div className={classes.whereabouts_page}>
             <div className={classes.hero_section}>
-                <img className={classes.hero_image} src={waterBG} alt="" width="100%" height="556"/>
+                <img className={classes.hero_image} src={waterBG} alt=""/>
                 <h1 className={classes.header}>Whereabouts</h1>
             </div>
         <div className={classes.info_section}>
@@ -19,7 +19,7 @@ export default function Whereabouts (){
                 the community.
                 </p>
             </div>
-            <img className={classes.image} src={burgess_shale} alt="" width="800" height="556"/>
+            <img className={classes.image} src={burgess_shale} alt="" />
         </div>
         <div className={classes.info_section}>
             <div className={classes.text_box}>
@@ -30,7 +30,7 @@ export default function Whereabouts (){
                 mineralized fossils.
                 </p>
             </div>
-            <img className={classes.image} src={china} alt="" width="800" height="556"/>
+            <img className={classes.image} src={china} alt="" />
         </div>
     </div>
     );
