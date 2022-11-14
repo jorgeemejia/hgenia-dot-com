@@ -1,5 +1,4 @@
 .whereabouts_page {
-    margin-top: 6rem;
     display: flex;
     flex-direction: column;
     gap: 10rem;
@@ -7,7 +6,7 @@
 
 .header {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -15,8 +14,8 @@
 }
 
 .hero_section {
-    margin-top: -6rem;
-    box-shadow: 0 4px 2px -2px gray;
+    position: relative;
+    text-align: center;
 
 }
 
@@ -57,13 +56,9 @@
     height: 417px;
 }
 
-@media (max-width: 2560px) {
+@media (max-width: 1440px) {
     .header {
-        color: white;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        font-size: 4rem;
+        color: blue;
     }
 
     .hero_image {
@@ -71,8 +66,6 @@
     }
 
     .image {
-        /* width: 400px;
-        height: 278px; */
         width: 500px;
         height: 347px;
     }
