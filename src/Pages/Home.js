@@ -10,7 +10,7 @@ export default function Home (){
         <div className={classes.home_page}>
             <div className={classes.hero_section}>
                 <img className={classes.hero_image} src={waterBG}  alt=""/>
-                <h1 className={classes.header}>Hallucigenia</h1>
+                    <h1 className={classes.header}>Hallucigenia</h1>
             </div>
             <div className={classes.images}>
                 <img className={classes.image} src={hg_model} alt=""/>
