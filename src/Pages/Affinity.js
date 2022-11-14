@@ -5,7 +5,7 @@ import waterBG from '../Images/Origins/waterBG.jpg';
 
 export default function Affinity (){
     return(
-        <div className={classes.anatomy_page}>
+        <div className={classes.affinity_page}>
             <div className={classes.hero_section}>
                 <img className={classes.hero_image} src={waterBG} alt=""/>
                 <h1 className={classes.header}>Affinity</h1>
