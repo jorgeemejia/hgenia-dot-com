@@ -13,9 +13,9 @@ export default function Whereabouts (){
         <div className={classes.info_section}>
             <div className={classes.text_box}>
                 <p className={classes.text}>
-                Hallucigenia was first described from the Burgess Shale in 
+                Hallucigenia was first described from the <b>Burgess Shale</b> in 
                 southeastern British Columbia, Canada. 109 specimens of Hallucigenia 
-                are known from the Greater Phyllopod bed, where they comprise 0.3% of 
+                are known from the Greater Phyllopod bed, where they comprise <b>0.3%</b> of 
                 the community.
                 </p>
             </div>
@@ -24,7 +24,7 @@ export default function Whereabouts (){
         <div className={classes.info_section}>
             <div className={classes.text_box}>
                 <p className={classes.text}>
-                Hallucigenia also forms a minor component of Chinese lagerstätten. 
+                Hallucigenia also forms a minor component of the <b>Chinese lagerstätten</b>(fossil site). 
                 Isolated hallucigeniid spines, however, are widely distributed in a 
                 range of Cambrian deposits, preserved both as carbonaceous and 
                 mineralized fossils.

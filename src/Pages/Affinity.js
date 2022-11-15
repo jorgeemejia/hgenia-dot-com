@@ -1,6 +1,6 @@
 import classes from './Affinity.module.css';
-import hgfossil from '../Images/Affinity/hgfossil.jpg';
 import lineage from '../Images/Affinity/lineage.png';
+import velvet_worm from '../Images/Affinity/velvet_worm.jpg';
 import waterBG from '../Images/Origins/waterBG.jpg';
 
 export default function Affinity (){
@@ -11,17 +11,15 @@ export default function Affinity (){
                 <h1 className={classes.header}>Affinity</h1>
             </div>
             <div className={classes.info_section}>
-                <img className={classes.image} src={hgfossil} alt=""/>
+                <img className={classes.image} src={velvet_worm} alt=""/>
                 <div className={classes.text_box}>
                     <p className={classes.text}>
-                    Since the revisions around 1990s,Hallucigenia is 
-                    unquestionably a lobopodian panarthropod, although the relationship 
-                    with other panarthropods remain controversial. Hallucigenia has long 
-                    been interpreted as a stem-group onychophoran (velvet worms) – a 
-                    position that has found support from multiple phylogenetic analysis.
-                    A key character demonstrating this affinity is the 
-                    cone-in-cone construction of Hallucigenia claws, a feature shared 
-                    only with modern onychophorans.
+                    Since the revisions around the 1990s, Hallucigenia is unquestionably a <b>lobopodian 
+                    panarthropod </b> (marine-legged worm). Nonetheless, its relationship with other 
+                    panarthropods (organisms with segmented bodies and appendages) remains <b>controversial</b>. 
+                    Hallucigenia has long been interpreted as a <b>stem group to velvet worms</b> and this is due 
+                    to its claws. Similar to the claws of velvet worms, the structure of Hallucigenia’s 
+                    claws are <b>cone-in-cone</b>. 
                     </p>
                 </div>
             </div>
@@ -29,13 +27,12 @@ export default function Affinity (){
                 <img className={classes.image} src={lineage} alt=""/>
                 <div className={classes.text_box}>
                     <p className={classes.text}>
-                    On the other hand, some analysis rather support the position of Hallucigenia as a 
-                    basal panarthropod outside of onychophoran stem-group.
-                    Under this scenario, the cone-in-cone structure shared between 
-                    Hallucigenia and onychophorans represent panarthropod plesiomorphy.
-                    Hallucigenia also exhibits certain characters inherited 
-                    from the ancestral ecdysozoan, but lost in the modern onychophorans 
-                    – in particular its distinctive foregut armature.
+                    The controversy in Hallucigenia’s relationship with other panarthropods 
+                    (organisms with segmented bodies and appendages) stems from the idea that 
+                    Hallucigenia might actually be a <b>basal panarthropod</b>. Under this accusation, that cone-in-cone 
+                    structure shared between Hallucigenia and velvet worms could simply be an example of 
+                    <b>plesiomorphy</b>, an evolutionary trait that is homologous within a particular group of 
+                    organisms but is not unique to members of that group.
                     </p>
                 </div>
             </div>

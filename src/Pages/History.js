@@ -15,8 +15,20 @@ export default function History (){
                 <div className={classes.text_box}>
                     <p className={classes.text}>
                     Hallucigenia had a very interesting history of interpretations. 
+                    At first, American Paleontologist <b>Charles Walcott</b> described the 
+                    species as belonging to the polychaete worm <b>Canadia Spinosa</b>. 
+                    In Charles’ defense, this assumption was reasonable as Canadia Spinosa 
+                    was also found in the <b>Burgess Shale</b>. Furthermore, similarly to 
+                    Hallucigenia’s many appendages, Canadia Spinosa also has a plethora of 
+                    <b> notosetae</b> (fleshy protrusions).
+                    {/* Hallucigenia had a very interesting history of interpretations. 
                     At first, American Paleontologist Charles Walcott described the 
-                    species as belonging to the polychaete worm Canadia.
+                    species as belonging to the polychaete worm Canadia Spinosa. 
+                    In Charles’ defense, this assumption was reasonable as Canadia Spinosa 
+                    was also found in the Burgess Shale. Furthermore, similarly to 
+                    Hallucigenia’s many appendages, Canadia Spinosa also has a plethora of 
+                    notosetae (fleshy protrusions) */}
+
                     </p>
                 </div>
                 <img className={classes.image} src={canadia} alt="" />
@@ -25,37 +37,36 @@ export default function History (){
                 <img className={classes.image} src={brwn_fossil} alt="" />
                 <div className={classes.text_box}>
                     <p className={classes.text}>
-                        In 1977 English paleontologist Simon Conway Morris gave his redescription of the 
-                    organism. No specimen was available that showed both rows of legs, and as such 
-                    Conway Morris reconstructed the animal walking on its spines, 
-                    with its single row of legs interpreted as tentacles on the animal's back.<br/><br/>
-                        Only the forward tentacles could easily reach to the 'head', 
-                    meaning that a mouth on the head would have to be fed by passing 
-                    food along the line of tentacles. Conway Morris suggested that a hollow 
-                    tube within each of the tentacles might be a mouth.<br/><br/>
-                        This raised questions, such as how it would walk on the stiff legs, 
-                    but it was accepted (with reservations) as the best available interpretation.
+                    However, in 1977, English paleontologist <b>Simon Conway Morris</b> gave his 
+                    own redescription of the organism. Conway imagined the animal <b>walking on 
+                    its spines</b>, but since we know this isn’t true, what led Conway to this analysis? 
+                    <br/><br/>
+                    At the time, no such specimen of Hallucigenia had been found with <b>both rows of legs</b>. 
+                    Therefore, to Conway, the only form of transportation possible were the animals' spines and 
+                    thus it’s a single row of legs were thought to be <b>tentacles</b>. Furthermore, Conway believed 
+                    the animal’s tentacles (legs) possessed a feeding tube.
+                    <br/><br/>
+                    Conway’s interpretation of this strange creature raised one large question, 
+                    “How would the animal be able to move with such stiff legs?” Regardless of this flaw, 
+                    Conway’s redescription was accepted as it was the best description at the time. 
                     </p>
                 </div>
             </div>
             <div className={classes.info_section}>
                 <div className={classes.text_box}>
                     <p className={classes.text}>
-                    In 1991, Lars Ramskold and Hou Xianguang, working with additional specimens of a 
-                    "hallucigenid", Microdictyon, from the lower Cambrian Maotianshan shales of China, 
-                    reinterpreted Hallucigenia as a lobopodian, a legged worm-like taxon which were 
-                    still thought to be exclusively related to onychophoran (velvet worm) at that time.
+                    Finally in 1991, <b>Lars Ramskold</b>, and <b>Hou Xuanguang</b> came up with the most accurate 
+                    reimagining of Hallucigenia. In contrast to previous redescriptions, Lars and Hou had 
+                    the advantage of working with <b>additional specimens</b> found in the lower Cambrian Matianshan 
+                    shales of <b>China</b>. With these extra specimens, 
+                    a pairing set of legs were found, leading to the following reinterpretation. 
                     <br/><br/>
-                    They inverted it, interpreting the tentacles, which they believe to be paired, 
-                    as walking structures and the spines as protective.
+                    They reinterpreted Hallucigenia as a <b>lobopodian</b> (worm with stubby feet), which were 
+                    still thought to be exclusively related to velvet worms. The duo also decided to <b>invert</b> 
+                    the creature interpreting the tentacles as legs and the spines as protectives. 
                     <br/><br/>
-                    Further preparation of fossil specimens showed that the 'second legs' were buried 
-                    at an angle to the plane along which the rock had split, and could be revealed by 
-                    removing the overlying sediment
-                    <br/><br/>
-                    Ramskold and Hou also believe that the blob-like 'head' 
-                    is actually a stain that appears in many specimens, not a preserved portion 
-                    of the anatomy.
+                    Lars and Hou also believed that the blob-like “head” was actually nothing but a 
+                    stain that appears in many specimen, not a preserved portion of the anatomy.
                     </p>
                 </div>
                 <img className={classes.image} src={interpretations} alt="" />
