@@ -40,7 +40,30 @@
     
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1960px) {
+    .header {
+        color: red;
+    }
+
+    .image {
+        width: 500px;
+        height: 347px;
+    }
+}
+
+@media (max-width: 1640px) {
+    .header {
+        color: green;
+    }
+
+    .image {
+        width: 450px;
+        height: 312px;
+    }
+}
+
+/* 1440 */
+@media (max-width: 1500px) {
     .header {
         color: blue;
     }
