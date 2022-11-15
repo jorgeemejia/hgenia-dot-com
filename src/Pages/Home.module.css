@@ -41,9 +41,7 @@
 }
 
 @media (max-width: 1960px) {
-    .header {
-        color: red;
-    }
+
 
     .image {
         width: 500px;
@@ -52,9 +50,7 @@
 }
 
 @media (max-width: 1640px) {
-    .header {
-        color: green;
-    }
+
 
     .image {
         width: 450px;
@@ -64,9 +60,7 @@
 
 /* 1440 */
 @media (max-width: 1500px) {
-    .header {
-        color: blue;
-    }
+
 
     .hero_image {
         height: 400px;

@@ -2,8 +2,8 @@
 import classes from './Home.module.css';
 import waterBG from '../Images/Origins/waterBG.jpg';
 import hg_gif from "../Images/Home/worm.0.gif";
-import hg_model from "../Images/Home/hg_model.jpg";
-import hg_game from "../Images/Home/hg_game.jpg";
+import hg_fortis from "../Images/Home/h_fortis.png";
+import hg_hong from "../Images/Home/h_hong.jpg";
 
 export default function Home (){
     return(
@@ -13,9 +13,9 @@ export default function Home (){
                     <h1 className={classes.header}>Hallucigenia</h1>
             </div>
             <div className={classes.images}>
-                <img className={classes.image} src={hg_model} alt=""/>
+                <img className={classes.image} src={hg_fortis} alt=""/>
                 <img className={classes.image} src={hg_gif}  alt=""/>
-                <img className={classes.image} src={hg_game}  alt=""/>
+                <img className={classes.image} src={hg_hong}  alt=""/>
             </div>
 
         </div>

@@ -18,7 +18,8 @@ export default function Anatomy (){
                     pairs of slender legs</b>. The first 2 or 3 leg pairs are slender and 
                     featureless, while the remaining 7 or 8 pairs each terminate with 1 or 2 <b>claws</b>. 
                     Placed on the backside of the animal are 7 pairs of rigid conical sclerites <b>(spines)</b>
-                    corresponding to the 3rd–9th leg pairs. The "head" and "tail" end of the animal are <b>difficult 
+                    corresponding to the 3rd–9th leg pairs. The spine surface of Sparsa  is covered in <b>triangular scales</b>,
+                    while the spine surface of Hongmeia is a net like texture similar to <b>papilae</b>. The "head" and "tail" end of the animal are <b>difficult 
                     to identify</b>; one end extends some distance beyond the legs and often droops down 
                     as if to reach the substrate. Some specimens display traces of a simple gut.
                     </p>

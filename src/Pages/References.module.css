@@ -26,9 +26,7 @@
 
 
 @media (max-width: 1440px) {
-    .header {
-        color: blue;
-    }
+
 
     .hero_image {
         height: 400px;
